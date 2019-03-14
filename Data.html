@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document121212</title>
+</head>
+<body>
+	<p>Щёлкните по документу для запуска обработчика.</p>
+<script>
+			document.write(console.dir(document.body));
+  			document.write(console.log(document.body));
+  addEventListener("click", 
+  
+
+
+
+		function hello(){
+			var w=window.open();
+			var d=w.document;
+			d.open();
+			var today = new Date();
+			d.write("<p>Документ открыт: " + today.toString( ));
+			d.write(" "+document.URL);
+			d.bgColor="red";
+			
+			d.close();
+
+		});
+
+
+		
+
+</script>
+</body>
+</html>
